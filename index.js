@@ -1,14 +1,7 @@
 var audio1 = new Audio("images/heartbeat.mp3");
 var audio2= new Audio("images/main.mp3");
 
-function object(statement, time) {
-    setTimeout(function (statement, time) {
-        statement;
-    }, time)
-}
-
 $(".image").click(function () {
-    $("h1").css("font-size","200%")
     $("h1").html("<p>This is for you</p><p>❤️👇❤️</p>");
     $(".image").css("width","100%");
     $(".image").hide();
