@@ -15,7 +15,6 @@ $(".image").click(function () {
     $(".image").attr("src","images/heart.gif");
     $(".image").show();
     audio1.play();
-    $("h1").css("font-size","400%")
         setTimeout(function(){
             $("h1").html("3");
         },4000)
@@ -29,7 +28,6 @@ $(".image").click(function () {
         },6000)
 
         setTimeout(function(){
-            $("h1").css("font-size","200%")
         $("h1").html("<p>Love you Buddy❤️</p>");
         $(".image").hide();
         $(".image").attr("src","images/image_main.jpg");
