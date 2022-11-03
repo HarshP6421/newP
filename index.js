@@ -8,7 +8,7 @@ function object(statement, time) {
 }
 
 $(".image").click(function () {   
-    $("h1").html("<p>This is for you</p><p>❤️👇❤️</p>");
+    $("h1").html("<p>❤️This is for you❤️</p><p>👇</p>");
     $(".image").css("width","100%");
     $(".image").hide();
     $(".image").attr("src","images/heart.gif");
